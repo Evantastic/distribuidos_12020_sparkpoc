@@ -4,7 +4,7 @@ conf = SparkConf().setAppName("Spark Count")
 sc = SparkContext(conf=conf)
 
 # the first step involves reading the source text file from HDFS 
-text_file = sc.textFile("/tmp/data/poc.py")
+text_file = sc.textFile("/tmp/data/quijote.txt")
 
 # this step involves the actual computation for reading the number of words in the file
 # flatmap, map and reduceByKey are all spark RDD functions
