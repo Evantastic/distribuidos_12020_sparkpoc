@@ -5,7 +5,7 @@ The first step to make is to start up the containers
 ``` bash
 docker-compose up
 ```
-Then, to see it its working, check `localhost:8080` to see if the page of the master node is up and running.
+Then, to see if it its working, check `localhost:8080` to see if the page of the master node is up and running.
 
 We then have to enter the container of the master node
 ``` bash
